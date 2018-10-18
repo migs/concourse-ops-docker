@@ -1,6 +1,6 @@
 FROM golang:1.11-alpine
 
-ENV CONCOURSE_VERSION 4.2.1
+ENV CONCOURSE_VERSION 3.14.1
 
 RUN apk update && \
     apk upgrade && \
